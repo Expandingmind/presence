@@ -9,11 +9,12 @@ export default function Home() {
           <div className="site-nav-links">
             <a href="#analyzer">Analyzer</a>
             <a href="#creators">For creators</a>
+            <a href="#pricing">Pricing</a>
             <a href="#faq">FAQ</a>
           </div>
           <div className="site-nav-cta">
             <a href="/login" className="nav-signin">Sign in</a>
-            <a className="btn btn-primary btn-sm" href="/login">Get started free</a>
+            <a className="btn btn-ink btn-sm" href="/login">Get started free</a>
           </div>
         </nav>
       </header>
@@ -144,6 +145,43 @@ export default function Home() {
                   <span className="chip-static">Active</span>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Pricing */}
+        <section id="pricing" className="wrap">
+          <div className="center" style={{ maxWidth: 640 }}>
+            <div className="eyebrow">Pricing</div>
+            <h2>Free while we're <em>onboarding founders.</em></h2>
+            <p className="lead">Everything included during early access. Founders who join now lock in launch pricing.</p>
+          </div>
+          <div className="pricing-wrap">
+            <div className="pricing-card featured">
+              <span className="pricing-tag">Early access</span>
+              <div className="pricing-name">Founder</div>
+              <div className="pricing-price"><span className="amt">$0</span><span className="per">/ during beta</span></div>
+              <ul className="pricing-list">
+                <li>Unlimited video analyses</li>
+                <li>UGC creator CRM</li>
+                <li>Organic idea inbox</li>
+                <li>Priority feature access</li>
+                <li>Launch pricing locked in</li>
+              </ul>
+              <a href="/login" className="btn btn-primary">Get started free</a>
+            </div>
+            <div className="pricing-card">
+              <span className="pricing-tag">Coming soon</span>
+              <div className="pricing-name">Team</div>
+              <div className="pricing-price"><span className="amt">TBD</span></div>
+              <ul className="pricing-list">
+                <li>Everything in Founder</li>
+                <li>Multiple team seats</li>
+                <li>Shared creator roster + briefs</li>
+                <li>Team-wide idea inbox</li>
+                <li>Analytics + reporting</li>
+              </ul>
+              <a href="#waitlist" className="btn btn-ghost">Join waitlist</a>
             </div>
           </div>
         </section>
