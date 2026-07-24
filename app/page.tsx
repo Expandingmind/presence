@@ -9,7 +9,7 @@ export default function Home() {
             <span className="dot" />
             Presence
           </div>
-          <a className="nav-cta" href="#waitlist">Get early access</a>
+          <a className="nav-cta" href="/login">Sign in</a>
         </nav>
       </header>
 
@@ -19,7 +19,7 @@ export default function Home() {
           <h1>The <em>presence</em><br />your app deserves.</h1>
           <p className="sub">You built something worth showing. Presence is how you show it — a marketing brain that studies what's winning in your niche, hands you the next post to shoot, manages your UGC creators, and never lets a good idea die in your notes app.</p>
           <div className="cta-row">
-            <a className="btn btn-primary" href="#waitlist">Join the waitlist →</a>
+            <a className="btn btn-primary" href="/login">Get started →</a>
             <a className="btn btn-ghost" href="/analyze">Try the analyzer</a>
           </div>
 
